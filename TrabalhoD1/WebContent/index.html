@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>RealNews</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+</head>
+<body>
+	<div class="container ml-1">
+		<h1>RealNews</h1>
+	</div>
+	
+	<hr>
+	<div class="container ml-5">
+		<div class="media-body">
+    		<h4 class="mt-0">Titulo da noticia</h4>
+    		<div class="overflow-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus eros quis massa volutpat, in congue nunc luctus. Quisque sed ipsum at risus dapibus commodo ac ut turpis. Mauris sagittis posuere tincidunt. Vivamus eget augue eget nunc rhoncus fermentum. Nullam sit amet ullamcorper ipsum, vel tempor libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae ipsum rutrum ligula ullamcorper scelerisque ut et enim. Integer mattis arcu sit amet magna tincidunt bibendum. Ut sit amet bibendum velit. Morbi faucibus mauris at lacinia aliquam. Donec varius et odio at pellentesque.</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container ml-5">
+		<div class="media-body">
+    		<h4 class="mt-0">Comentários</h4>
+    		<a style="font-weight: bold">Maria <a/>
+    		<br> &nbsp &nbsp Achei a noticia muito interessante <hr>
+    		<a style="font-weight: bold">José <a/>
+    		<br> &nbsp &nbsp Não achei a noticia interessante <hr>
+    	</div>
+    	
+    	<h5>Adicionar comentário</h5>
+    	<form action="AdicionaContato.do" method="post">
+		<div class="row"><div class="col">Nome: </div><div class="col-10"><input class="form-control" type="text" name="nome_contato"></div></div> <br>
+		<div class="row"><div class="col">Comentário: </div><div class="col-10"><textarea rows="4" class="form-control" type="text" name="email_contato"></textarea></div></div> <br>
+
+		<input class="float-right" type="submit">
+	</form>
+    </div>
+	
+	
+</body>
+</html>
